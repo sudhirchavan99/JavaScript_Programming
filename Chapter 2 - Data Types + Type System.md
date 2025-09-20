@@ -98,4 +98,29 @@ if ([]) console.log("truthy"); else console.log("falsy"); // truthy
 ```
 <hr>
 
+
 ## 📋 Summary
+
+🔹 **Categories**
+- Primitive Types (immutable, stored by value) → string, number, boolean, null, undefined, symbol, bigint
+- Reference Types (mutable, stored by reference) → object, array, function
+<hr>
+
+🔹 **Key Concepts**
+- Dynamic Typing → Variable type can change at runtime.
+- typeof quirks:
+  - typeof null → "object" (bug)
+  - typeof NaN → "number"
+  - typeof [] → "object"
+  - typeof function(){} → "function"
+<hr>
+
+🔹 **Equality**
+- == (loose) → does type coercion before compare.
+- === (strict) → compares both type and value.
+<hr>
+
+🔹 **Truthy & Falsy**
+- Falsy values: false, 0, "", null, undefined, NaN, 0n
+- Truthy values: everything else ("hello", 42, [], {}, etc.)
+<hr>
